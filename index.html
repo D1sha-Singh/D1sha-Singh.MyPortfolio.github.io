@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head >
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "bootstrap-social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Piedra">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luckiest Guy">
+     <link  rel="stylesheet" href="css/saaj.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+    </head>
+    <header>
+    <title>Disha Singh</title>
+    </header>
+    <body>
+        <div class="container-fluid-xl">
+        <div class="row no-gutters">
+            <div class="col-sm-6" id="left" >
+                <button type="button" class="btn btn-lg" data-toggle="collapse" onclick="dothis()" id="bttn" data-target="#demo" ><i class="fas fa-bars"></i></button> 
+                    <nav id="sidebar" class="navbar dark " style="background-color:#000066">
+        <ul class="list-unstyled components" >
+            <li  >
+                <a id="ok"  href="aboutMe.html">About Me</a>
+            </li>
+            <li >
+                <a id="ok" href="projects.html">Projects</a>
+            </li>
+            <li>
+                <a id="ok" href="hobbies.html">Hobbies</a>
+            </li>
+            </ul>
+        </nav>
+                <div class="main" >
+                    <h2 class="animate__heartBeat">How much do you know me?</h2>
+                    <img  id="t" src="images/IMG_20190418_124733.jpg" alt="ok" >  
+                </div> 
+            </div>
+            <div class="col-sm-6" id="right">
+                <div class="about">
+                <h1  style="display: inline-block">DISHA SINGH</h1>
+             <p   class="animate__slideInRight" style="display: block">Hey, this is my homepage, so I have to say something about myself. Sometimes it is hard to introduce yourself because you know yourself so well that you do not know where to start with. Let me give a try to see what kind of image you have about me through my self-description. I hope that my impression about myself and your impression about me are not so different.</p>
+                </div>
+                    <div class="text">
+                         <a href="mailto:skrhsg@gmail.com" target="_blank" class="btn btn-social-icon btn-google"><i class="fab fa-google-plus fa-sm"></i></a><br>
+                        <a href="https://www.facebook.com/profile.php?id=100016072128929" target="_blank" class="btn btn-social-icon btn-facebook"><i class="fab fa-facebook fa-sm"></i></a><br>
+                    <a href="https://www.linkedin.com/in/disha-singh-290225172/" target="_blank" class="btn btn-social-icon btn-linkedin"><i class="fab fa-linkedin fa-sm"></i></a><br>
+                        <a href="https://twitter.com/Dhairya_Thakur" target="_blank" class="btn btn-social-icon btn-twitter"><i class="fab fa-twitter fa-sm"></i></a><br>
+                    </div>
+            </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+              $("#bttn").click(function(){
+              $("#sidebar").animate({
+                width: "toggle"
+            });
+             });
+            });
+             function dothis(){ 
+                 let w=$("#sidebar").width;
+                 console.log(w);
+                 this.style.width=w;
+             }  
+        </script>
+       
+    </body>
+    <footer class="footer" style="background-color: cornflowerblue">
+        <div class="container-fluid">
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>Designed by DS</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+</html>
