@@ -1,0 +1,116 @@
+.text{
+    margin-right: 20px;
+    margin-left: 100%;
+    min-width: 100%;
+    height: 100vh;
+}
+.main{
+    margin-left: 200px;
+  
+}
+.about{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+#t{
+    width:300px;
+    height:300px;
+    margin-left: 400px;
+    margin-top: 200px;
+    border-radius:50%;
+  
+}
+.col-6{
+    height: 100vh;
+    width: 100vh;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    max-width: 100vh;
+    min-height: 100vh;
+    
+}
+#left{
+    background-color: cornflowerblue;
+}
+#sidebar{
+    height:100vh;
+    width:20%;
+    display: none;
+  
+}
+@keyframes example {
+  from {display: none}
+  to {display: inline;}
+}
+
+/* The element to apply the animation to */
+.animate__slideInRight {
+  animation-name: example;
+  animation-duration: 4s;
+}
+#ok{
+      color: whitesmoke;
+}
+#bttn{
+    width: 20%;
+    border-radius: 0%;
+    animation-name:buton;
+}
+p{
+    font-family: Piedra;
+}
+h2/h4,h6{
+    font-family: Luckiest Guy;
+}
+.carousel-slide{
+    height: 100vh;
+    width: 100%;
+   padding: 0px;
+}
+.carousel-item{
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+}
+.card{
+    width: 300px;
+    height: 500px;
+}
+.card-body{
+    color: azure;
+}
+#image{
+    width: 250px;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+}
+.card-title{
+    font-size: 20px;
+    color: aliceblue;
+}
+.afooter{
+    width: auto;
+    height:40px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.carousel-caption{
+    top:40px;
+    font-size: 30px;
+    padding: 0px;
+}
+.img-fluid{
+    opacity:0.7;
+}
